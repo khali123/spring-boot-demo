@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping("hello")
-public class Hello {
+public class HelloController {
 
 	@GetMapping
 	@ResponseBody
-	public String get() {
+	public String say() {
 		return "Hello";
 	}
 }
